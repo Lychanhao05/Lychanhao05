@@ -4,17 +4,18 @@
 #include<conio.h>
 #include<time.h>
 #include<math.h>
-kjhjkgghjcghjnhfgghffghfghf
+
 using namespace std;
 
 void TextColor (int color)
 {
 	SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE) , color);
-}sfsdsfsdfsdfdf
+}
 
 void gotoXY (int column, int line)
 {
-	COORD coord;sdadasdas
+	COORD coord;
+	coord.X = column;
 	coord.Y = line;
 	SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE),coord);
 }
